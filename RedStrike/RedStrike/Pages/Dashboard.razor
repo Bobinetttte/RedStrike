@@ -1,20 +1,75 @@
 ﻿@page "/dashboard"
 
-<header class="d-flex align-items-center px-4 border-bottom">
-	<img src="img/RedStrikeLogo.png" alt="Logo RedStrike" class="me-2" id="logo" />
-	<p class="h3">RedStrike</p>
-</header>
+<header class="d-flex align-items-center px-4 py-3 border-bottom">
+        <img src="img/RedStrikeLogo.png" alt="Logo RedStrike" class="me-2" id="logo" />
+        <h1 class="h3">RedStrike</h1>
+    </header>
 
-<div class="fluid-container p-0">
-	<div class="row">
-		<div class="col bg-success">
-		fdfsdf
-		</div>
-		<div class="col bg-info">
-		fdfsdf
-		</div>
-		<div class="col bg-warning">
-		fdfsdf
-		</div>
-	</div>
-</div>
+    <main class="container-fluid my-4">
+        <div class="row g-4" style="min-height: 100%;">
+
+            <!-- Colonne de gauche -->
+            <section class="col-lg-4 d-flex flex-column" style="min-height: 100%;">
+                <div class="card mb-4 flex-fill">
+                    <div class="card-header">
+                        <h5 class="card-title">Informations</h5>
+                        </div>
+                        <div class="card-body">
+                        <input type="text" class="form-control my-3" placeholder="Enter the URL...">
+                        <div>
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input"> I confirm that I have the authorisation of the site owner
+                            </label>
+                        </div>
+                        <button class="btn btn-danger w-100 mt-3">Start</button>
+                    </div>
+                    
+                </div>
+                <div class="card flex-fill">
+                    <div class="card-body">
+                        <div class="ratio ratio-4x3">
+                            <!-- Placeholder pour l'image -->
+                            <div class="bg-light d-flex justify-content-center align-items-center">
+                                Image
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Colonne centrale -->
+<section class="col-lg-3 d-flex flex-column"  style="min-height: 100%; max-height: 100%;">
+  <div class="card d-flex flex-column h-100">
+    <div class="card-header">
+      <h5 class="card-title">Logs</h5>
+    </div>
+    <div class="card-body flex-grow-1 overflow-auto">
+      <p class="mb-0">Contenu principal détaillé</p>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+            <!-- Colonne de droite -->
+            <section class="col-lg-5 d-flex flex-column h-100">
+                <div class="card flex-fill">
+                    <div class="card-header d-flex justify-content-between">
+                        <h5 class="card-title">Rapport</h5>
+                        <button class="btn btn-danger">⭳</button>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled">
+                            <li>Option 1</li>
+                            <li>Option 2</li>
+                            <li>Option 3</li>
+                            <li>Option 4</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>

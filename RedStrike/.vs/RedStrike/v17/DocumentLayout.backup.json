@@ -36,9 +36,10 @@
               "RelativeDocumentMoniker": "RedStrike\\wwwroot\\css\\site.css",
               "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\site.css",
               "RelativeToolTip": "RedStrike\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-30T10:14:39.531Z"
+              "WhenOpened": "2025-01-30T10:14:39.531Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -62,7 +63,8 @@
               "RelativeToolTip": "RedStrike\\Pages\\_Host.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T09:22:59.78Z"
+              "WhenOpened": "2025-01-30T09:22:59.78Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -72,7 +74,7 @@
               "RelativeDocumentMoniker": "RedStrike\\Pages\\Dashboard.razor",
               "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\Dashboard.razor",
               "RelativeToolTip": "RedStrike\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-30T09:17:26.015Z",
               "EditorCaption": ""

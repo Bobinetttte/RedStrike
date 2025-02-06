@@ -26,3 +26,4 @@ E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\refint\RedSt
 E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.pdb
 E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.genruntimeconfig.cache
 E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\ref\RedStrike.dll
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.sourcelink.json
