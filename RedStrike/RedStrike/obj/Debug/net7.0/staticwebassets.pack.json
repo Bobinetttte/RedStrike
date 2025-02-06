@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\img\\RedStrikeLogo.png",
+      "PackagePath": "staticwebassets\\img\\RedStrikeLogo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RedStrike.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.RedStrike.props",
+      "PackagePath": "build\\RedStrike.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.RedStrike.props",
+      "PackagePath": "buildMultiTargeting\\RedStrike.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.RedStrike.props",
+      "PackagePath": "buildTransitive\\RedStrike.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
