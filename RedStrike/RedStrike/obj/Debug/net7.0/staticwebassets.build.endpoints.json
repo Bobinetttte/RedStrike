@@ -1,115 +1,19 @@
 {
   "Version": 1,
-  "Hash": "V8AyKvIny+S9B0ZDt73gTI2rt1QnQnEFJXzi6CM+jW0=",
-  "Source": "RedStrike",
-  "BasePath": "_content/RedStrike",
-  "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [
-    {
-      "Name": "RedStrike\\wwwroot",
-      "Source": "RedStrike",
-      "ContentRoot": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\",
-      "BasePath": "_content/RedStrike",
-      "Pattern": "**"
-    }
-  ],
-  "Assets": [
-    {
-      "Identity": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\bootstrap.min.css",
-      "SourceId": "RedStrike",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\",
-      "BasePath": "_content/RedStrike",
-      "RelativePath": "css/bootstrap.min#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "46ein0sx1k",
-      "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\bootstrap.min.css"
-    },
-    {
-      "Identity": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\site.css",
-      "SourceId": "RedStrike",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\",
-      "BasePath": "_content/RedStrike",
-      "RelativePath": "css/site#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "up4m7uu7n6",
-      "Integrity": "YgD5s0r6mtsfre3EyA75YwyXCjQMkqWeLQKZrZIWQwE=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\site.css"
-    },
-    {
-      "Identity": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\img\\RedStrikeLogo.png",
-      "SourceId": "RedStrike",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\",
-      "BasePath": "_content/RedStrike",
-      "RelativePath": "img/RedStrikeLogo#[.{fingerprint}]?.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dp0q0dlnce",
-      "Integrity": "7xULW8gs4LyS8CZuJzaG0H9Yly6hj9+D/CsRMm3pMRk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\RedStrikeLogo.png"
-    },
-    {
-      "Identity": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\js\\site.js",
-      "SourceId": "RedStrike",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\",
-      "BasePath": "_content/RedStrike",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "tm3u5owe40",
-      "Integrity": "G43dwDI94iDPGVjzmygm4loJhg2fXZsqjZSzJS7UdLs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
-    }
-  ],
   "Endpoints": [
     {
       "Route": "css/bootstrap.min.46ein0sx1k.css",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\bootstrap.min.css",
+      "AssetFile": "css/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -126,10 +30,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 23 Jan 2025 14:15:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -138,23 +38,27 @@
           "Value": "46ein0sx1k"
         },
         {
-          "Name": "label",
-          "Value": "css/bootstrap.min.css"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap.min.css"
         }
       ]
     },
     {
       "Route": "css/bootstrap.min.css",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\bootstrap.min.css",
+      "AssetFile": "css/bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -171,10 +75,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 23 Jan 2025 14:15:39 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -186,12 +86,16 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\site.css",
+      "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -208,10 +112,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Feb 2025 12:30:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -223,12 +123,16 @@
     },
     {
       "Route": "css/site.up4m7uu7n6.css",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\site.css",
+      "AssetFile": "css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -245,10 +149,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Feb 2025 12:30:29 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -257,23 +157,27 @@
           "Value": "up4m7uu7n6"
         },
         {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-YgD5s0r6mtsfre3EyA75YwyXCjQMkqWeLQKZrZIWQwE="
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
         }
       ]
     },
     {
       "Route": "img/RedStrikeLogo.dp0q0dlnce.png",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\img\\RedStrikeLogo.png",
+      "AssetFile": "img/RedStrikeLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -290,10 +194,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 30 Jan 2025 09:28:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -302,23 +202,27 @@
           "Value": "dp0q0dlnce"
         },
         {
-          "Name": "label",
-          "Value": "img/RedStrikeLogo.png"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-7xULW8gs4LyS8CZuJzaG0H9Yly6hj9+D/CsRMm3pMRk="
+        },
+        {
+          "Name": "label",
+          "Value": "img/RedStrikeLogo.png"
         }
       ]
     },
     {
       "Route": "img/RedStrikeLogo.png",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\img\\RedStrikeLogo.png",
+      "AssetFile": "img/RedStrikeLogo.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
         },
         {
           "Name": "Content-Length",
@@ -335,10 +239,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 30 Jan 2025 09:28:19 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
         }
       ],
       "EndpointProperties": [
@@ -350,12 +250,16 @@
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\js\\site.js",
+      "AssetFile": "js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Length",
@@ -372,10 +276,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Feb 2025 10:18:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
         }
       ],
       "EndpointProperties": [
@@ -387,12 +287,16 @@
     },
     {
       "Route": "js/site.tm3u5owe40.js",
-      "AssetFile": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\js\\site.js",
+      "AssetFile": "js/site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
           "Name": "Accept-Ranges",
           "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Length",
@@ -409,10 +313,6 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 13 Feb 2025 10:18:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
@@ -421,12 +321,12 @@
           "Value": "tm3u5owe40"
         },
         {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
           "Name": "integrity",
           "Value": "sha256-G43dwDI94iDPGVjzmygm4loJhg2fXZsqjZSzJS7UdLs="
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
         }
       ]
     }

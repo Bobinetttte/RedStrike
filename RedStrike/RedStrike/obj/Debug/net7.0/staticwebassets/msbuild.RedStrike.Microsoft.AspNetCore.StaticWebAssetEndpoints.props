@@ -1,0 +1,52 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/css/bootstrap.min.46ein0sx1k.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"46ein0sx1k"},{"Name":"integrity","Value":"sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="},{"Name":"label","Value":"_content/RedStrike/css/bootstrap.min.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232803"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Jan 2025 14:15:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/css/bootstrap.min.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\bootstrap.min.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"232803"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\u0022"},{"Name":"Last-Modified","Value":"Thu, 23 Jan 2025 14:15:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/css/site.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YgD5s0r6mtsfre3EyA75YwyXCjQMkqWeLQKZrZIWQwE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2513"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YgD5s0r6mtsfre3EyA75YwyXCjQMkqWeLQKZrZIWQwE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 12:30:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/css/site.up4m7uu7n6.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"up4m7uu7n6"},{"Name":"integrity","Value":"sha256-YgD5s0r6mtsfre3EyA75YwyXCjQMkqWeLQKZrZIWQwE="},{"Name":"label","Value":"_content/RedStrike/css/site.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2513"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022YgD5s0r6mtsfre3EyA75YwyXCjQMkqWeLQKZrZIWQwE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 12:30:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/img/RedStrikeLogo.dp0q0dlnce.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\RedStrikeLogo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dp0q0dlnce"},{"Name":"integrity","Value":"sha256-7xULW8gs4LyS8CZuJzaG0H9Yly6hj9\u002BD/CsRMm3pMRk="},{"Name":"label","Value":"_content/RedStrike/img/RedStrikeLogo.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"235068"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227xULW8gs4LyS8CZuJzaG0H9Yly6hj9\u002BD/CsRMm3pMRk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 09:28:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/img/RedStrikeLogo.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\RedStrikeLogo.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7xULW8gs4LyS8CZuJzaG0H9Yly6hj9\u002BD/CsRMm3pMRk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"235068"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u00227xULW8gs4LyS8CZuJzaG0H9Yly6hj9\u002BD/CsRMm3pMRk=\u0022"},{"Name":"Last-Modified","Value":"Thu, 30 Jan 2025 09:28:19 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/js/site.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G43dwDI94iDPGVjzmygm4loJhg2fXZsqjZSzJS7UdLs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"242"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022G43dwDI94iDPGVjzmygm4loJhg2fXZsqjZSzJS7UdLs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 10:18:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RedStrike/js/site.tm3u5owe40.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tm3u5owe40"},{"Name":"integrity","Value":"sha256-G43dwDI94iDPGVjzmygm4loJhg2fXZsqjZSzJS7UdLs="},{"Name":"label","Value":"_content/RedStrike/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"242"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022G43dwDI94iDPGVjzmygm4loJhg2fXZsqjZSzJS7UdLs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 13 Feb 2025 10:18:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

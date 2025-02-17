@@ -1,0 +1,4 @@
+wwwroot\css\bootstrap.min.css
+wwwroot\css\site.css
+wwwroot\img\RedStrikeLogo.png
+wwwroot\js\site.js

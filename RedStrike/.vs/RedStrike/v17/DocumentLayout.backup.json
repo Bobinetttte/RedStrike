@@ -11,12 +11,36 @@
       "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\scraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\scraper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\redstrike.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\redstrike.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\pages\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\pages\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|e:\\2eme\\blazor\\02_redstrike\\v0\\redstrike\\redstrike\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{50319C24-CA64-41AB-99E3-B28514F6861E}|RedStrike\\RedStrike.csproj|solutionrelative:redstrike\\pages\\_host.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +50,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Scraper.cs",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Scraper.cs",
+              "RelativeDocumentMoniker": "RedStrike\\Scraper.cs",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Scraper.cs",
+              "RelativeToolTip": "RedStrike\\Scraper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:29:30.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "App.razor",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\App.razor",
+              "RelativeDocumentMoniker": "RedStrike\\App.razor",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\App.razor",
+              "RelativeToolTip": "RedStrike\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T07:26:02.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Header.razor",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\Header.razor",
+              "RelativeDocumentMoniker": "RedStrike\\Pages\\Header.razor",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\Header.razor",
+              "RelativeToolTip": "RedStrike\\Pages\\Header.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-13T07:18:37.052Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -36,34 +96,9 @@
               "RelativeDocumentMoniker": "RedStrike\\wwwroot\\css\\site.css",
               "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\css\\site.css",
               "RelativeToolTip": "RedStrike\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-01-30T10:14:39.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\MainLayout.razor",
-              "RelativeDocumentMoniker": "RedStrike\\MainLayout.razor",
-              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\MainLayout.razor",
-              "RelativeToolTip": "RedStrike\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T09:23:07.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Host.cshtml",
-              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\_Host.cshtml",
-              "RelativeDocumentMoniker": "RedStrike\\Pages\\_Host.cshtml",
-              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\_Host.cshtml",
-              "RelativeToolTip": "RedStrike\\Pages\\_Host.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-01-30T09:22:59.78Z",
               "EditorCaption": ""
             },
             {
@@ -74,10 +109,70 @@
               "RelativeDocumentMoniker": "RedStrike\\Pages\\Dashboard.razor",
               "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\Dashboard.razor",
               "RelativeToolTip": "RedStrike\\Pages\\Dashboard.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-01-30T09:17:26.015Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RedStrike.csproj",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\RedStrike.csproj",
+              "RelativeDocumentMoniker": "RedStrike\\RedStrike.csproj",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\RedStrike.csproj",
+              "RelativeToolTip": "RedStrike\\RedStrike.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-13T10:28:56.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Program.cs",
+              "RelativeDocumentMoniker": "RedStrike\\Program.cs",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Program.cs",
+              "RelativeToolTip": "RedStrike\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T10:30:15.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "site.js",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "RedStrike\\wwwroot\\js\\site.js",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "RedStrike\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-13T10:18:42.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\MainLayout.razor",
+              "RelativeDocumentMoniker": "RedStrike\\MainLayout.razor",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\MainLayout.razor",
+              "RelativeToolTip": "RedStrike\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T09:23:07.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Host.cshtml",
+              "DocumentMoniker": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\_Host.cshtml",
+              "RelativeDocumentMoniker": "RedStrike\\Pages\\_Host.cshtml",
+              "ToolTip": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\Pages\\_Host.cshtml",
+              "RelativeToolTip": "RedStrike\\Pages\\_Host.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-30T09:22:59.78Z"
             }
           ]
         }

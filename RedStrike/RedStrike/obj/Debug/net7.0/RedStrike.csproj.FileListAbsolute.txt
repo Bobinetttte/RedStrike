@@ -27,3 +27,11 @@ E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.pd
 E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.genruntimeconfig.cache
 E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\ref\RedStrike.dll
 E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.sourcelink.json
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\bin\Debug\net7.0\RedStrike.staticwebassets.endpoints.json
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\staticwebassets\msbuild.RedStrike.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\bin\Debug\net7.0\HtmlAgilityPack.dll
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\bin\Debug\net7.0\Profound.Kentico.AMPPlugin.dll
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.csproj.AssemblyReference.cache
+E:\2eme\Blazor\02_RedStrike\V0\RedStrike\RedStrike\obj\Debug\net7.0\RedStrike.csproj.Up2Date

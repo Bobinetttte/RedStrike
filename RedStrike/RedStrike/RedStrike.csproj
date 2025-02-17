@@ -6,4 +6,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.72" />
+    <PackageReference Include="Profound.Kentico.AMPPlugin" Version="1100.47.1811" />
+  </ItemGroup>
+
 </Project>

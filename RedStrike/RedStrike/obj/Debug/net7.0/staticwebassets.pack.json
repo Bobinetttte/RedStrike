@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\img\\RedStrikeLogo.png"
     },
     {
+      "Id": "E:\\2eme\\Blazor\\02_RedStrike\\V0\\RedStrike\\RedStrike\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RedStrike.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.RedStrike.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
