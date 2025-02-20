@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedStrike")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed1318fb0948ecca4e94b3cc701f5080dfda3762")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c64dc90b379fddf1f715599f2c2204bc28a174b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedStrike")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedStrike")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

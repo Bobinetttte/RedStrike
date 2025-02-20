@@ -1,6 +1,5 @@
 ﻿@page "/dashboard"
-@inject WebScraperService WebScraperService
-
+@inject IJSRuntime JS
 
 <div class="row g-4" style="max-height: 50em;">
 
@@ -22,7 +21,7 @@
 					<label for="confirm" class="form-check-label">I confirm that I have the authorisation of the site owner</label>
 					<input type="checkbox" class="form-check-input" name="confirm" @bind="isChecked">
 				</div>
-				<button class="btn btn-danger w-100 mt-3" disabled="@(isChecked == false || !IsValidUrl())" @onclick="StartScraping">Start</button>
+				<button class="btn btn-danger w-100 mt-3" disabled="@(isChecked == false || !IsValidUrl())" @onclick="StartListening">Start</button>
 			</div>
 		</div>
 
@@ -32,7 +31,7 @@
 				<div class="ratio ratio-4x3">
 					@if (IsValidUrl())
 					{
-						<iframe src="@(urlPrefix + url)" class="w-100 h-100" style="border: none;"></iframe>
+						<iframe id="iframeSite" src="@(urlPrefix + url)" class="w-100 h-100" style="border: none;"></iframe>
 					}
 					else
 					{
@@ -53,21 +52,7 @@
 				<button class="btn btn-danger">⭳</button>
 			</div>
 			<div class="card-body flex-grow-1 overflow-auto">
-				@if (isScraping)
-				{
-					<p>Exploration en cours...</p>
-				}
-
-				@if (links.Count > 0)
-				{
-					<h4>Pages explorées :</h4>
-					<ul>
-						@foreach (var link in links)
-						{
-							<li>@link</li>
-						}
-					</ul>
-				}
+				<p></p> <!-- Affiche le message reçu -->
 			</div>
 		</div>
 	</section>
@@ -80,74 +65,12 @@
 				<button class="btn btn-danger">⭳</button>
 			</div>
 			<div class="card-body flex-grow-1 overflow-auto">
-				<ul class="list-unstyled">
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 1</li>
-					<li>Option 2</li>
-					<li>Option 3</li>
-					<li>Option 4</li>
-					<li>Option 4</li>
-					<li>Option 4</li>
-					<li>Option 4</li>
-					<li>Option 4</li>
-				</ul>
+				<!-- Rapport de détection -->
 			</div>
 		</div>
 	</section>
 </div>
 
-@inject IJSRuntime JS
 @code {
 
 	//Preview
@@ -160,34 +83,13 @@
 		if (string.IsNullOrWhiteSpace(url))
 			return false;
 
-		string fullUrl = urlPrefix + url;
-		string pattern = @"^(https?:\/\/)?([a-zA-Z0-9-]+\.)+[a-zA-Z]{2,}(:[0-9]{1,5})?(\/.*)?$";
-
-		return System.Text.RegularExpressions.Regex.IsMatch(fullUrl, pattern);
+		return true;
 	}
 
-
 	//Logs
-	private HashSet<string> links = new HashSet<string>();
-	private bool isScraping = false;
-
-	private async Task StartScraping()
+	private async Task StartListening()
 	{
-		if (!IsValidUrl()) return;
-
-		isScraping = true;
-		links.Clear(); // Clear previous results
-
-		try
-		{
-			var result = await WebScraperService.ExploreSiteAsync(url);
-			links = result;
-		}
-		catch (Exception ex)
-		{
-			Console.WriteLine($"Erreur lors du scraping : {ex.Message}");
-		}
-
-		isScraping = false;
+		// Appelle le script JavaScript pour écouter les inputs de l'iframe
+		await JS.InvokeVoidAsync("startListeningToIframeInputs");
 	}
 }

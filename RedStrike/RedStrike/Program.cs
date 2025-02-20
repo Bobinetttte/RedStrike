@@ -8,11 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 
-// Enregistrer le service WebScraperService
-builder.Services.AddHttpClient();
-builder.Services.AddSingleton<WebScraperService>();
 
 var app = builder.Build();
+
 
 // Configuration des middlewares
 if (!app.Environment.IsDevelopment())
