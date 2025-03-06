@@ -10,6 +10,20 @@ RedStrike is an advanced cyber offensive tool designed for automated penetration
 - **Report Generation**: Provides detailed security reports with remediation suggestions.
 - **Stealth Mode**: Minimizes detection while scanning.
 
+## Prerequisites
+To use RedStrike properly, you need to inject this Javascript code into the target page:
+
+``` JS
+window.addEventListener("message", (event) => {
+    if (event.data === "GET_INPUTS") {
+        let inputs = Array.from(document.querySelectorAll("input, textarea, select"))
+            .map(input => ({ name: input.name, type: input.type, value: input.value }));
+
+        event.source.postMessage({ type: "INPUTS_DATA", inputs: inputs }, event.origin);
+    }
+});
+```
+
 ## Disclaimer
 RedStrike is intended for ethical hacking and cybersecurity research only. Unauthorized use against websites without permission is illegal.
 
